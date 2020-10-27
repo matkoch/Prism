@@ -17,6 +17,7 @@ using static Nuke.Common.Tools.NuGet.NuGetTasks;
 [GitHubActions(
     "continous",
     GitHubActionsImage.WindowsLatest,
+    On = new[] {GitHubActionsTrigger.Push},
     InvokedTargets = new[] {nameof(Restore)})]
 class Build : NukeBuild
 {

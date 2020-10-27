@@ -16,7 +16,7 @@
 
 name: continous
 
-on:
+on: [push]
 
 jobs:
   windows-latest:
