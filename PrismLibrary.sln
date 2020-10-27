@@ -85,6 +85,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Containers", "Containers", 
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Prism.Container.Wpf.Shared", "tests\Wpf\Prism.Container.Wpf.Shared\Prism.Container.Wpf.Shared.shproj", "{BD42A7D6-A84D-4D27-9C28-7F6A2EC477F1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{5F082195-9314-4EA5-BD3E-052F626F40B3}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\Containers\Prism.DryIoc.Shared\Prism.DryIoc.Shared.projitems*{02e0ecaa-b8c6-4eab-a9ab-164b1b99af35}*SharedItemsImports = 5
@@ -116,6 +118,8 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F082195-9314-4EA5-BD3E-052F626F40B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F082195-9314-4EA5-BD3E-052F626F40B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F634CA1E-9237-4E69-B23C-91AA6FBCABFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F634CA1E-9237-4E69-B23C-91AA6FBCABFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F634CA1E-9237-4E69-B23C-91AA6FBCABFF}.Debug|x64.ActiveCfg = Debug|Any CPU

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".editorconfig" t="Include" />
+      <e p=".github/workflows/continous.yml" t="Include" />
+      <e p=".github/workflows/dotnet-format-daily.yml" t="Include" />
+      <e p=".github/workflows/sponsor-actions.yml" t="Include" />
+      <e p=".gitignore" t="Include" />
+      <e p=".nuke" t="Include" />
+      <e p="build" t="IncludeRecursive">
+        <e p="_build.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="boot" t="Include" />
+        <e p="Build.cs" t="Include" />
+        <e p="ci" t="Include" />
+        <e p="config" t="Include" />
+        <e p="Configuration.cs" t="Include" />
+        <e p="Directory.Build.props" t="Include" />
+        <e p="Directory.build.targets" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="_build.AssemblyInfo.cs" t="Include" />
+            <e p="RefitStubs.g.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="build.cmd" t="Include" />
+      <e p="build.ps1" t="Include" />
+      <e p="build.sh" t="Include" />
+      <e p="CodeCoverage.runsettings" t="Include" />
+      <e p="Directory.Build.props" t="Include" />
+      <e p="Directory.build.targets" t="Include" />
+      <e p="global.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Packages.props" t="Include" />
+      <e p="PrismLibrary.sln" t="IncludeFlat" />
+      <e p="Solution Items" t="Include" />
+      <e p="src" t="Include">
+        <e p="Containers" t="Include">
+          <e p="Prism.DryIoc.Shared" t="IncludeRecursive">
+            <e p="Prism.DryIoc.Shared.shproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Unity.Shared" t="IncludeRecursive">
+            <e p="Prism.Unity.Shared.shproj" t="IncludeRecursive" />
+          </e>
+        </e>
+        <e p="Forms" t="Include">
+          <e p="Prism.DryIoc.Forms" t="IncludeRecursive">
+            <e p="Prism.DryIoc.Forms.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Forms" t="IncludeRecursive">
+            <e p="Prism.Forms.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Forms.Regions" t="IncludeRecursive">
+            <e p="Prism.Forms.Regions.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Unity.Forms" t="IncludeRecursive">
+            <e p="Prism.Unity.Forms.csproj" t="IncludeRecursive" />
+          </e>
+        </e>
+        <e p="Prism.Core" t="IncludeRecursive">
+          <e p="Prism.Core.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Uno" t="Include">
+          <e p="Prism.DryIoc.Uno" t="IncludeRecursive">
+            <e p="Prism.DryIoc.Uno.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Unity.Uno" t="IncludeRecursive">
+            <e p="Prism.Unity.Uno.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Uno" t="IncludeRecursive">
+            <e p="Prism.Uno.csproj" t="IncludeRecursive" />
+          </e>
+        </e>
+        <e p="Wpf" t="Include">
+          <e p="Prism.DryIoc.Wpf" t="IncludeRecursive">
+            <e p="Prism.DryIoc.Wpf.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Unity.Wpf" t="IncludeRecursive">
+            <e p="Prism.Unity.Wpf.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Wpf" t="IncludeRecursive">
+            <e p="Prism.Wpf.csproj" t="IncludeRecursive" />
+          </e>
+        </e>
+      </e>
+      <e p="tests" t="Include">
+        <e p="Containers" t="Include">
+          <e p="Prism.Container.DryIoc.Tests" t="IncludeRecursive">
+            <e p="Prism.Ioc.DryIoc.Tests.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Container.Shared" t="IncludeRecursive">
+            <e p="Prism.Ioc.Shared.shproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Container.Unity.Tests" t="IncludeRecursive">
+            <e p="Prism.Ioc.Unity.Tests.csproj" t="IncludeRecursive" />
+          </e>
+        </e>
+        <e p="Forms" t="Include">
+          <e p="Prism.DI.Forms.Tests" t="IncludeRecursive">
+            <e p="Prism.DI.Forms.Tests.shproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.DryIoc.Forms.Tests" t="IncludeRecursive">
+            <e p="Prism.DryIoc.Forms.Tests.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Forms.Tests" t="IncludeRecursive">
+            <e p="Prism.Forms.Tests.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Unity.Forms.Tests" t="IncludeRecursive">
+            <e p="Prism.Unity.Forms.Tests.csproj" t="IncludeRecursive" />
+          </e>
+        </e>
+        <e p="Prism.Core.Tests" t="IncludeRecursive">
+          <e p="Prism.Core.Tests.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Wpf" t="Include">
+          <e p="Prism.Container.Wpf.Shared" t="IncludeRecursive">
+            <e p="Prism.Container.Wpf.Shared.shproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.DryIoc.Wpf.Tests" t="IncludeRecursive">
+            <e p="Prism.DryIoc.Wpf.Tests.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.IocContainer.Wpf.Tests.Support" t="IncludeRecursive">
+            <e p="Prism.IocContainer.Wpf.Tests.Support.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Unity.Wpf.Tests" t="IncludeRecursive">
+            <e p="Prism.Unity.Wpf.Tests.csproj" t="IncludeRecursive" />
+          </e>
+          <e p="Prism.Wpf.Tests" t="IncludeRecursive">
+            <e p="Prism.Wpf.Tests.csproj" t="IncludeRecursive" />
+          </e>
+        </e>
+      </e>
+      <e p="xunit.runner.json" t="Include" />
+    </e>
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_PrismLibrary.-1374999751.00" t="ExcludeRecursive" />
+  </component>
+</project>
