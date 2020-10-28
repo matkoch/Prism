@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using Nuke.Common;
+using Nuke.Common.CI.AzurePipelines;
 using Nuke.Common.CI.GitHubActions;
 using Nuke.Common.Execution;
 using Nuke.Common.IO;
@@ -15,7 +16,7 @@ using static Nuke.Common.Tools.NuGet.NuGetTasks;
 
 [CheckBuildProjectConfigurations]
 [GitHubActions(
-    "continous",
+    "continuous",
     GitHubActionsImage.WindowsLatest,
     On = new[] {GitHubActionsTrigger.Push},
     InvokedTargets = new[] {nameof(Restore)})]
