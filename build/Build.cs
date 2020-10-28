@@ -18,8 +18,8 @@ using static Nuke.Common.Tools.NuGet.NuGetTasks;
 [GitHubActions(
     "continuous",
     GitHubActionsImage.WindowsLatest,
-    On = new[] {GitHubActionsTrigger.Push},
-    InvokedTargets = new[] {nameof(Restore)})]
+    On = new[] { GitHubActionsTrigger.Push },
+    InvokedTargets = new[] { nameof(Restore) })]
 class Build : NukeBuild
 {
     /// Support plugins are available for:
